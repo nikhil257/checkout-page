@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="left">
+                <h1>Credit Card Details</h1>
+                <hr>
+                <h3>Name on Card <br>
+                <input type="text" placeholder="Full Name as per card"></h3>
+                <h3>Card Number <br>
+                <input type="text" placeholder="XXXX-XXXX-XXXX-XXXX"></h3>
+                <div class="details">
+                    <h3>Expiry Date<br>
+                    <input type="number" placeholder="MM/YYYY"></h3>
+                    <h3>CVC <br>
+                    <input type="number" placeholder="XXX"></h3>
+                </div>
+                <h5><input type="checkbox">Save Card Info </h5>
+                <h3><b>Billing Address</b></h3>
+                <hr>
+                <h5><input type="checkbox" name="" id="">Same as Shipping Address</h5>
+                <h3>Natasha Romanoff</h3>
+                <p>80080-09 <br> Los Angeles, California <br>
+                <input type="button" value="+"> Add New Address </p>
+                <div class="others">
+                    <h3>&#9135 other payment options &#9135</h3>
+                    <dic class="images">
+                        <img src="/wallet.png" alt="">
+                        <img src="/google-pay.png" alt="">
+                        <img src="/payment-method.png" alt="">
+                        <img src="/credit-card.png" alt="">
+                    </dic>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="top">
+                    <h1>Order Summary</h1>
+
+                    <div class="orders">
+                        <div class="frame1">
+                            <img src="https://m.media-amazon.com/images/I/81ZBZOdS0zL._SX679_.jpg" alt="">
+                            <p>NVIDIA Gaming GeForce RTX 4070 Ti Super</p>
+                            <h5>Rs, 80,699</h5>
+                        </div>
+
+                        <div class="frame1">
+                            <img src="https://m.media-amazon.com/images/I/71Wz-eaDGCL._SL1200_.jpg" alt="">
+                            <p>Cooler Master HAF 700 EVO</p>
+                            <h5>Rs, 53,999</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <ul>
+                        <li><span class="sub">Subtotal</span>
+                            <span class="price">Rs. 1,34,698</span></li>
+                        <li><span class="sub">Discount (5% CODE: WELCOME5)</span>
+                            <span class="price">Rs. 6,734.9 </span></li>
+                        <li><span class="sub">Taxes</span>
+                            <span class="price">Rs. 2,004.9</span></li>
+                            <hr>
+                        <li><span class="sub">Total</span>
+                            <span class="price">Rs. 1,29,968</span></li>
+                    </ul>
+                    <button class="proceed">Proceed to checkout <i class="ri-arrow-right-double-fill"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
